@@ -1,0 +1,25 @@
+.input-component {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.input-component:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 6px #4CAF50;
+}
+
+.input-component-label {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+}

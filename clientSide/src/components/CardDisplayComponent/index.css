@@ -1,0 +1,39 @@
+.card-display-component {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 21px;
+/*     border-radius: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); */
+    width: 96%;
+    margin: 0 auto;
+}
+
+.card-display-component h2 Link {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.card-display-component ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 3fr));
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.card-display-component li {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+.card-display-component li h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-display-component li p {
+    font-size: 16px;
+}

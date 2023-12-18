@@ -1,0 +1,38 @@
+/* FILEPATH: /e:/small side projects/small fullstack app/clientSide/src/components/NavBar/index.css */
+
+/* Set background color and add box shadow */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the logo */
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style the links */
+.navbar .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .links a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar .links a:hover {
+    color: #0077b6;
+}
+
+/* Style the active link */
+.navbar .links a.active {
+    color: #0077b6;
+    font-weight: bold;
+}

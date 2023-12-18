@@ -1,0 +1,17 @@
+.login-container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+   
+}
+
+.login-form {
+    display: grid;
+    gap: 20px;
+    height: 45vh;
+    width: 24vw;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
